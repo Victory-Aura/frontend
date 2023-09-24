@@ -18,3 +18,4 @@ class GameDisciplineSerializer(serializers.ModelSerializer):
     class Meta:
         model = GameDiscipline
         fields = ["id","name","slug",'img']
+

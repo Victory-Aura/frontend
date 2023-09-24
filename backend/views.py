@@ -21,7 +21,34 @@ class ImgViewSet(ModelViewSet):
     queryset = ImgFiles.objects.only('file','name')
     serializer_class = ImgSerializer
     @action(methods=['get'],detail=False)
-    def main(self,request):
+    def MN(self,request):
         data = self.get_queryset().filter(type_img='MN')
         serializer = self.get_serializer(data, context={'request': request}, many=True)
         return Response(serializer.data)
+
+    @action(methods=['get'],detail=False)
+    def GD(self,request):
+        data = self.get_queryset().filter(type_img='GD')
+        serializer = self.get_serializer(data, context={'request': request}, many=True)
+        return Response(serializer.data)
+    @action(methods=['get'],detail=False)
+    def TO(self,request):
+        data = self.get_queryset().filter(type_img='TO')
+        serializer = self.get_serializer(data, context={'request': request}, many=True)
+        return Response(serializer.data)
+    @action(methods=['get'],detail=False)
+    def NW(self,request):
+        data = self.get_queryset().filter(type_img='NW')
+        serializer = self.get_serializer(data, context={'request': request}, many=True)
+        return Response(serializer.data)
+    @action(methods=['get'],detail=False)
+    def TM(self,request):
+        data = self.get_queryset().filter(type_img='TM')
+        serializer = self.get_serializer(data, context={'request': request}, many=True)
+        return Response(serializer.data)
+    @action(methods=['get'],detail=False)
+    def CO(self,request):
+        data = self.get_queryset().filter(type_img='CO')
+        serializer = self.get_serializer(data, context={'request': request}, many=True)
+        return Response(serializer.data)
+
