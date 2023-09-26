@@ -1,5 +1,6 @@
-function App() {
+import ImgService from "./api/imgservice"
 
+function App() {
   return (
     <>
     </>
