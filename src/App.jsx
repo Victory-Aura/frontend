@@ -1,12 +1,15 @@
-import NavBar from "./Components/NavBar/NavBar"
-import ImgService from "./api/imgservice"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter } from 'react-router-dom';
+
+import AppRouter from './Components/UI/AppRouter/AppRouter';
 
 function App() {
   return (
-    <>
-    <NavBar />
-    </>
-  )
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
