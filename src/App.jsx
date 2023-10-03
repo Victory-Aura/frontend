@@ -5,6 +5,8 @@ import NavBar from './Components/NavBar/NavBar';
 
 import AppRouter from './Components/UI/AppRouter/AppRouter';
 
+import '../src/index.css'
+
 function App() {
   return (
     <BrowserRouter>
