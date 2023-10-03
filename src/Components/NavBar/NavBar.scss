@@ -1,0 +1,25 @@
+$milkcolor: #fbf5db;
+$whitecolor: #fbfbfb;
+
+
+.NavBar-BrandName {
+    color: $milkcolor;
+}
+
+.NavBar-BrandName:hover {
+    color: $milkcolor;
+}
+
+
+.NavBar-Links {
+  color: $whitecolor;
+}
+
+.NavBar-Links:hover {
+    color: #c9c8c8;
+}
+
+.NavBar-Links:active {
+    color: $whitecolor;
+}
+
