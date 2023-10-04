@@ -30,3 +30,5 @@ export const useGetAndSetData = (callback) => {
     },[])
     return [Data,setData, isLoading,Err]
 }
+
+export default useGetAndSetData;

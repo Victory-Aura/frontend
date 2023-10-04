@@ -1,0 +1,242 @@
+body {
+    background-color: #212529;
+    text-decoration: none;
+}
+
+.brand1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1E1E1E;
+    height: 100%;
+    width: 100%;
+    color: #fbf5db;
+    text-align: center;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+.logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.brandAbout1 {
+    font-size: 46px;
+    color: #fbfbfb;
+    text-shadow: 1px 0px 1px #2b2a2f;
+    margin: 0;
+}
+
+.brandName {
+    font-size: 164px;
+    text-shadow: 3px 1px 3px #6d1f1f;
+    margin: 0;
+}
+
+.brandAbout2 {
+    margin-top: -1%;
+    font-size: 76px;
+    color: #fbfbfb;
+    text-shadow: 1px 0px 1px #2b2a2f;
+    padding-bottom: 5%;
+    }
+
+    @media (max-width: 7680px) {
+    
+
+        .logo {
+        height: 10%;
+        width: 10%;
+        }
+    
+        .brandAbout1 {
+        font-size: 64px;
+        }
+    
+    
+        .brandName {
+        font-size: 230px;
+        }
+    
+        .brandAbout2 {
+            margin-top: -1%;
+            font-size: 110px;
+        }
+
+        .brand1 {
+            padding-top: 120px;
+        }
+    }
+
+
+@media (max-width: 2560px) {
+    
+
+    .logo {
+    height: 12%;
+    width: 12%;
+    }
+
+    .brandAbout1 {
+    font-size: 46px;
+    }
+
+
+    .brandName {
+    font-size: 164px;
+    }
+
+    .brandAbout2 {
+        margin-top: -1%;
+        font-size: 76px;
+    }
+
+    .brand1 {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .logo {
+        height: 14%;
+        width: 14%;
+        }
+    
+        .brandAbout1 {
+        font-size: 32px;
+        }
+    
+    
+        .brandName {
+        font-size: 112px;
+        }
+    
+        .brandAbout2 {
+            margin-top: -1%;
+            font-size: 52px;
+            margin-bottom: 5%;
+        }
+    
+        .brand1 {
+            padding-top: 100px;
+        }
+}
+
+@media (max-width: 1024px) {
+
+    .logo {
+        height: 20%;
+        width: 20%;
+        }
+    
+        .brandAbout1 {
+        font-size: 28px;
+        }
+    
+    
+        .brandName {
+        font-size: 100px;
+        }
+    
+        .brandAbout2 {
+            margin-top: -1%;
+            font-size: 42px;
+            margin-bottom: 10%;
+        }
+
+        .brand1 {
+            padding-top: 80px;
+        }
+}
+
+@media (max-width: 768px) {
+    
+    .logo {
+        height: 22%;
+        width: 22%;
+        padding-top: 4%;
+        }
+    
+        .brandAbout1 {
+        font-size: 18px;
+        }
+    
+    
+        .brandName {
+        font-size: 62px;
+        }
+    
+        .brandAbout2 {
+            margin-top: -1%;
+            font-size: 30px;
+            margin-bottom: 10%;
+        }
+
+        .brand1 {
+            padding-top: 40px;
+        }
+
+}
+
+@media (max-width: 540px) {
+    
+    .logo {
+        height: 24%;
+        width: 24%;
+        padding-top: 4%;
+        }
+    
+        .brandAbout1 {
+        font-size: 12px;
+        }
+    
+    
+        .brandName {
+        font-size: 44px;
+        }
+    
+        .brandAbout2 {
+            margin-top: -1%;
+            font-size: 20px;
+            margin-bottom: 10%;
+        }
+
+        .brand1 {
+            padding-top: 30px;
+        }
+
+}
+
+@media (max-width: 320px) {
+    
+    .logo {
+        height: 26%;
+        width: 26%;
+        padding-top: 4%;
+        }
+    
+        .brandAbout1 {
+        font-size: 8px;
+        }
+    
+    
+        .brandName {
+        font-size: 28px;
+        }
+    
+        .brandAbout2 {
+            margin-top: -1%;
+            font-size: 12px;
+            margin-bottom: 10%;
+        }
+
+        .brand1 {
+            padding-top: 30px;
+        }
+
+}
